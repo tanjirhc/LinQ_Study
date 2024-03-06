@@ -19,6 +19,11 @@ namespace LinQ_Study
             
             string[] words = { "blueberry", "chimpanzee", "abacus", "banana", "apple", "cheese" };
 
+            var fivech = words.First(c => c.Length == 5);
+            Console.WriteLine("*****************");
+            Console.WriteLine(fivech.ToString());
+            Console.WriteLine("*****************");
+
             var wordGroups = from w in words
                              group w by w[0] into g
                              select (FirstLetter: g.Key, Words: g);
@@ -31,6 +36,8 @@ namespace LinQ_Study
                     Console.WriteLine(w);
                 }
             }
+
+            
 
             Console.ReadLine();
 
