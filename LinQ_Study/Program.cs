@@ -16,6 +16,16 @@ namespace LinQ_Study
                 Console.WriteLine(s);
             }
             Console.ReadLine();
+
+            List<string> NameList = (from nam in Name
+                                     where nam.Length ==5
+                                     select nam).ToList();
+
+            foreach (string s in NameList)
+            {
+                Console.WriteLine(s);
+            }
+            Console.ReadLine();
         }
     }
 }
