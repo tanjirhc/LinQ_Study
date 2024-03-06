@@ -15,6 +15,23 @@ namespace LinQ_Study
             { 
                 Console.WriteLine(s);
             }
+
+            
+            string[] words = { "blueberry", "chimpanzee", "abacus", "banana", "apple", "cheese" };
+
+            var wordGroups = from w in words
+                             group w by w[0] into g
+                             select (FirstLetter: g.Key, Words: g);
+
+            foreach (var g in wordGroups)
+            {
+                Console.WriteLine("Words that start with the letter '{0}':", g.FirstLetter);
+                foreach (var w in g.Words)
+                {
+                    Console.WriteLine(w);
+                }
+            }
+
             Console.ReadLine();
 
             List<string> NameList = (from nam in Name
