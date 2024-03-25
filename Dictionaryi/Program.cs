@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -10,6 +11,7 @@ namespace Dictionaryi
     {
         static void Main(string[] args)
         {
+            honda honda1 = new honda();
             Dictionary<string, string> Cars = new Dictionary<string, string>();
             Cars.Add("IN", "Maruti");
             Cars.Add("IT", "Farari");
@@ -21,6 +23,12 @@ namespace Dictionaryi
                 Console.WriteLine($"{c.Key} = {c.Value}");
             }
             Console.ReadLine();
+
+            Public class honda
+        {
+            public int hondaNum { get; set; }
         }
-    }
+
+        
+        }    
 }
