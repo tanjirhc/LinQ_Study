@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace Delegates
 {
-    public delegate void PrinteDelegate(string message);
+    public delegate void PrinteDelegate(string message1);
     public class Program
     {
-        private static void Print(string message)
-        {
-            Console.WriteLine(message);
-        }
+        //private static void Print(string message)
+        //{
+        //    Console.WriteLine(message);
+        //}
         private static void Print2(string msg) 
         { 
             Console.WriteLine(msg+"Print int from method 2");

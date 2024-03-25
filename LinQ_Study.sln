@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinQ_Study", "LinQ_Study\Li
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegates", "Delegates\Delegates.csproj", "{9DEE7B8D-1EAB-4ABA-87F5-B266B33881C2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictionary", "Dictionary\Dictionary.csproj", "{C6CD31FB-75C7-4FCA-B581-42B70805909E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictionaryi", "Dictionaryi\Dictionaryi.csproj", "{13C0BA7F-B635-4E48-8E05-AE503BD30378}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{9DEE7B8D-1EAB-4ABA-87F5-B266B33881C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9DEE7B8D-1EAB-4ABA-87F5-B266B33881C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9DEE7B8D-1EAB-4ABA-87F5-B266B33881C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6CD31FB-75C7-4FCA-B581-42B70805909E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6CD31FB-75C7-4FCA-B581-42B70805909E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6CD31FB-75C7-4FCA-B581-42B70805909E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6CD31FB-75C7-4FCA-B581-42B70805909E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13C0BA7F-B635-4E48-8E05-AE503BD30378}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13C0BA7F-B635-4E48-8E05-AE503BD30378}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13C0BA7F-B635-4E48-8E05-AE503BD30378}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13C0BA7F-B635-4E48-8E05-AE503BD30378}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
