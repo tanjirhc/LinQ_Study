@@ -16,6 +16,10 @@ namespace Dictionaryi
             Cars.Add("BN", "Proton");
 
             Console.WriteLine(Cars["BN"]);
+            foreach (KeyValuePair<string, string> c in Cars) 
+            {
+                Console.WriteLine($"{c.Key} = {c.Value}");
+            }
             Console.ReadLine();
         }
     }
